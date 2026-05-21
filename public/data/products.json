@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Fiat Cronos Drive",
+    "description": "Sedán moderno y económico con motor 1.3, ideal para el día a día. Amplio baúl y excelente confort de marcha en ciudad.",
+    "price": 19800000,
+    "image": "/img/2017-Fiat-Cronos-092.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Fiat Toro Freedom",
+    "description": "Pick-up compacta que combina la versatilidad de una camioneta con el confort de un SUV. Motor Turbo Diésel y tracción 4x4.",
+    "price": 31500000,
+    "image": "/img/OIP.webp"
+  },
+  {
+    "id": 3,
+    "name": "Toyota Corolla Seg",
+    "description": "El sedán más vendido del mundo. Motorización híbrida, máxima seguridad con Toyota Safety Sense y detalles de categoría.",
+    "price": 32000000,
+    "image": "/img/OIP (1).webp"
+  },
+  {
+    "id": 4,
+    "name": "Toyota Hilux SRX",
+    "description": "La pick-up robusta por excelencia. Motor 2.8 turbodiésel, tracción 4x4 y equipamiento premium para el campo o la ciudad.",
+    "price": 46000000,
+    "image": "/img/Toyota-Hilux-SRX-2024-accion.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Toyota Yaris XLS",
+    "description": "Hatchback compacto y ágil, ideal para la ciudad. Excelente consumo de combustible, caja automática CVT y pantalla táctil.",
+    "price": 21500000,
+    "image": "/img/Toyota-Yaris-XLS (4).jpg"
+  },
+  {
+    "id": 6,
+    "name": "Volkswagen Gol Trend",
+    "description": "Un clásico indiscutible. Auto compacto de mecánica noble, repuestos accesibles y un andar súper confiable.",
+    "price": 14500000,
+    "image": "/img/Volkswagen-Gol-2016-2017-Uruguay (3).jpg"
+  }
+]
