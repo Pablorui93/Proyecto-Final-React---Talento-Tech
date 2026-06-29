@@ -1,29 +1,97 @@
+/* =========================================
+   Estilos Generales del Carrito
+========================================= */
 .cart-container {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-.cart-items-container {
-  margin: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
+.cart-container h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
 }
 
+/* =========================================
+   Estado: Carrito Vacío
+========================================= */
 .empty-cart {
-  font-size: 2rem;
-  padding: 1rem;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 25px;
 }
 
-.cart-actions {
+/* =========================================
+   Estilos Generales de Botones
+========================================= */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* Colores de Botones */
+.bg-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.bg-primary:hover {
+  background-color: #0056b3;
+}
+
+.bg-success {
+  background-color: #28a745;
+  color: white;
+  width: 100%;
+  /* Botón ancho para finalizar compra */
+  margin-top: 15px;
+}
+
+.bg-success:hover {
+  background-color: #218838;
+}
+
+/* =========================================
+   Resumen de Compra (CartSummary)
+========================================= */
+.cart-summary-container {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px dashed #ccc;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
-.cart-actions p {
-  font-size: 2rem;
-  padding: 1rem;
+.cart-summary-container p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 15px 0;
 }
