@@ -4,12 +4,12 @@ import "./App.css";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 import { CartView } from "./components/Cart/CartView";
-import { ProductFormContainer } from "./components/adminComponents/ProductFormContainer";
+import { ProductFormContainer } from "./components/AdminComponents/ProductFormContainer";
 import { ProductSuccess } from "./components/AdminComponents/ProductSuccess";
 import { PublicLayout } from "./layouts/PublicLayout";
 import { AdminLayout } from "./layouts/AdminLayout";
 import { ProtectedRoute } from "./components/ProtectedRouter/ProtectedRouter";
-import { Dashboard } from "./components/adminComponents/Dashboard/Dashboard";
+import { Dashboard } from "./components/AdminComponents/Dashboard/Dashboard";
 import { Login } from "./components/Login/Login";
 
 function App() {
